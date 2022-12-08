@@ -112,9 +112,9 @@
 
 @section("content")
   <div class="mt-5">
-    {{-- <h2>User Dengan Role Admin Dan Status Aktif True</h2> --}}
+    <h2>User Dengan Role Admin Dan Status Aktif True</h2>
 
-    <form action="{{ route('home') }}" class="mb-5">
+    {{-- <form action="{{ route('home') }}" class="mb-5">
       <div class="row gx-5 mb-3">
         <div class="col-2">
           <h6>Role :</h6>
@@ -133,7 +133,7 @@
         </div>
       </div>
       <button type="submit" class="btn btn-primary">Filter</button>
-    </form>
+    </form> --}}
 
     <div class="d-flex flex-wrap">
       @foreach ($users as $user)
